@@ -4,6 +4,8 @@ import json
 import re
 import time
 
+# change x.y.z.t to your MSO address
+# your_password is your MSO password
 base_url = "https://x.y.z.t/api/v1/"
 payload = "{\n    \"username\": \"admin\",\n    \"password\": \"your_password\"\n}"
 bearer = ""
